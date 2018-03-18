@@ -1,0 +1,16 @@
+server:
+  port: 9000
+
+management:
+  context-path: /mgmt
+  security:
+    enabled: false
+
+spring:
+  boot:
+    admin:
+      url: http://localhost:9000
+  application:
+    name: admin-server
+
+
